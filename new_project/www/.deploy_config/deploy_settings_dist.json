@@ -1,0 +1,24 @@
+{
+    "API": {
+        "SAMPLE_API": "sample.jbcorporation.com:8080/api"
+    },
+    "DATABASES": {
+        "DEFAULT": {
+            "ENGINE": "django.db.backends.mysql",
+            "NAME": "dst_sample",
+            "USER": "dst_sample",
+            "PASSWORD": "sample_password",
+            "HOST": "127.0.0.1",
+            "PORT": "8888"
+        }
+    },
+    "CONFIGS": {
+	"GROUP1": {
+		"KEY1": "VALUE1",
+		"KEY2": "VALUE2"
+	},
+	"GROUP2": {
+	}
+    }
+}
+
